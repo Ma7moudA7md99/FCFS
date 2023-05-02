@@ -39,7 +39,6 @@ namespace FCFS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Form case1 = new Form();
             var form = new case1();
             form.Show();
             this.Hide();
@@ -48,6 +47,13 @@ namespace FCFS
         private void mainForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var form = new case2();
+            form.Show();
+            this.Hide();
         }
     }
 }

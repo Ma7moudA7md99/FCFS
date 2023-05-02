@@ -56,6 +56,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Case 2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             this.button2.MouseEnter += new System.EventHandler(this.button2_MouseEnter);
             this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
             // 
@@ -83,13 +84,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(531, 258);
+            this.ClientSize = new System.Drawing.Size(535, 190);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "mainForm";
             this.Text = "FCFS";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.mainForm_FormClosed);
